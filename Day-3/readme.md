@@ -9,7 +9,7 @@
 - Beyond this, some more changes are made to be a fully responsive website.
 - My Technical Documentation Page is now fully responsive in all formats.
 
-## Here you can check my fully responsive technical documentation page.
+## Here you can check my website's responsiveness.
 Through this link :- https://j7bg9e.csb.app/#Introduction
 
 ## Outputs:-
