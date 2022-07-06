@@ -14,6 +14,8 @@ Through this link :- https://j7bg9e.csb.app/#Introduction
 
 ## Outputs:-
 ![Screenshot (185)](https://user-images.githubusercontent.com/93045673/177608774-ee54d2d8-3b83-4b77-a636-eff70400f3bb.png)
+
 ![Screenshot (186)](https://user-images.githubusercontent.com/93045673/177609088-60fa1f3e-105a-4569-8688-f4e4609a6e60.png)
+
 ![Screenshot (187)](https://user-images.githubusercontent.com/93045673/177609142-d898e05d-5822-43ba-aaae-a95a806f5203.png)
 
