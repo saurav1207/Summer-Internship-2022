@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zippy-Clone</title>
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Font-awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo" id="home">ZIPPY-CLONE</div>
+            <ul class="nlist">
+                <li><a href="#contact"> Contact </a></li>
+                <li><a href="#blog"> Blog </a></li>
+                <li><a href="#team"> Team </a></li>
+                <li><a href="#pricing"> Pricing </a></li>
+                <li><a href="#projects"> Projects </a></li>
+                <li><a href="#about"> About </a></li>
+                <li><a href="#home"> Home </a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Carousel container -->
+    <div class="Carousel fade">
+        <div class="Containers">
+            <img src="./images/1.jpg" style="width:100%">
+            <div class="Info">
+                <h1>One page promising to fill all your needs!!</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+                    dolores.
+                </p>
+            </div>
+        </div>
+
+        <div class="Containers">
+            <img src="./images/2.jpg" style="width:100%">
+            <div class="Info">
+                <h1>One page promising to fill all your needs!!</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+                    dolores.
+                </p>
+            </div>
+        </div>
+
+        <div class="Containers">
+            <img src="./images/3.jpg" style="width:100%">
+            <div class="Info">
+                <h1>One page promising to fill all your needs!!</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+                    dolores.
+                </p>
+            </div>
+        </div>
+
+        <!-- Back and forward buttons -->
+        <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The circles/dots -->
+    <div style="text-align:center">
+        <span class="dots" onclick="currentSlide(1)"></span>
+        <span class="dots" onclick="currentSlide(2)"></span>
+        <span class="dots" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!--End nav -->
+
+
+    <!--Start About Section  -->
+
+    <div class="about" id="about">
+        <!-- <div class="title">
+            <h1>Welcome to Zippy</h1>
+        </div> -->
+        <div class="title">Welcome to Zippy</div>
+        <div class="about-top">
+            <div class="about-left" data-aos="zoom-in">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse cumque velit iure! Magni quos deserunt
+                    aspernatur dolorum. Saepe laudantium est assumenda asperiores delectus quos accusamus perferendis
+                    quo tempora.
+                </p>
+            </div>
+            <div class="about-right" data-aos="zoom-in">
+                <img src="./images/Data extraction-amico.png" alt="about">
+            </div>
+        </div>
+        <div class="aboutBox">
+            <div class="aboutCard" data-aos="zoom-in">
+                <!-- <i class="fa-solid fa-bell"></i> -->
+                <div class="about-icon"><img src="./images/bell.png" alt=""></div>
+                <h5>Lorem Ipsum</h5>
+                <div class="pra">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae ipsa laudantium provident
+                        illum, est iusto! Odio unde atque quibusdam in velit esse aut accusantium.</p>
+                    <p style="text-align: center;"><a href="#" class="button">Read More</a></p>
+                </div>
+            </div>
+
+            <div class="aboutCard" data-aos="zoom-in">
+                <!-- <i class="fa-solid fa-envelope-open-text"></i> -->
+                <div class="about-icon"><img src="./images/msg.png" alt=""></div>
+                <h5>Lorem Ipsum</h5>
+                <div class="pra">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae ipsa laudantium provident
+                        illum, est iusto! Odio unde atque quibusdam in velit esse aut accusantium.</p>
+                    <p style="text-align: center;"><a href="#" class="button">Read More</a></p>
+                </div>
+            </div>
+
+            <div class="aboutCard" data-aos="zoom-in">
+                <!-- <i class="fa-solid fa-briefcase"></i> -->
+                <div class="about-icon"><img src="./images/box.png" alt=""></div>
+                <h5>Lorem Ipsum</h5>
+                <div class="pra">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae ipsa laudantium provident
+                        illum, est iusto! Odio unde atque quibusdam in velit esse aut accusantium.</p>
+                    <p style="text-align: center;"><a href="#" class="button">Read More</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End About Section -->
+
+
+    <!-- Start Project -->
+    <section id="projects">
+        <div class="project-heading">
+            <div class="title">Our Project</div>
+        </div>
+
+        <div class="project-container">
+            <div class="project-box" data-aos="zoom-in">
+
+                <div class="project-img">
+                    <img src="./images/Project1 (2).jpg" alt="">
+                </div>
+
+                <div class="project-text">
+                    <a href="#" class="blog-title">Lorem ipsum dolor</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nam, minus neque ducimus earum
+                        odio? Perferendis recusandae quidem non necessitatibus.</p>
+                    <button class="pro-btn">Get From Here</button>
+                </div>
+            </div>
+            <div class="project-box" data-aos="zoom-in">
+
+                <div class="project-img">
+                    <img src="./images/pro1 (1).jpg" alt="">
+                </div>
+
+                <div class="project-text">
+                    <a href="#" class="blog-title">Lorem ipsum dolor</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nam, minus neque ducimus earum
+                        odio? Perferendis recusandae quidem non necessitatibus.</p>
+                    <button class="pro-btn">Get From Here</button>
+                </div>
+            </div>
+            <div class="project-box" data-aos="zoom-in">
+
+                <div class="project-img">
+                    <img src="./images/Project1 (2).jpg" alt="">
+                </div>
+
+                <div class="project-text">
+                    <a href="#" class="blog-title">Lorem ipsum dolor</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nam, minus neque ducimus earum
+                        odio? Perferendis recusandae quidem non necessitatibus.</p>
+                    <button class="pro-btn">Get From Here</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Project -->
+
+
+    <!-- Our Team -->
+
+    <div>
+        <!-- <h1 class="Ttitle">Our Zippy Team</h1> -->
+        <div class="title" id="team">Our Zippy Team</div>
+        <div class="team-row">
+            <div class="team-member" data-aos="zoom-in">
+                <img src="./images/tw1 (1).jpg" alt="">
+                <h2>Dilma Rousseff</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum similique eligendi numquam.</p>
+            </div>
+            <div class="team-member" data-aos="zoom-in">
+                <img src="./images/tw1 (8).jpg" alt="">
+                <h2>Malinda Gates</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum similique eligendi numquam.</p>
+            </div>
+            <div class="team-member" data-aos="zoom-in">
+                <img src="./images/tw1 (2).jpg" alt="">
+                <h2>Chris Jones</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum similique eligendi numquam.</p>
+            </div>
+        </div>
+    </div>
+    <!-- End team -->
+
+    <!-- Pricing start -->
+
+    <section id="pricing">
+        <div class="pricing">
+            <div class="pricing-top">
+                <!-- <h1>Pricing Table</h1> -->
+                <div class="title">Pricing Table</div>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, earum placeat quae quaerat quidem
+                    corporis?</p>
+            </div>
+
+            <div class="pricing-items">
+                <!-- Single Price Item -->
+                <div class="pricing-item" data-aos="zoom-in">
+                    <h3>Standard Plan</h3>
+                    <p>Perfect for small than 10 team</p>
+
+                    <div class="pricingItem-price">
+                        <span class="dollar">$</span>
+                        <span class="price">16</span>
+                        <span class="period">/ month</span>
+                    </div>
+                    <ul class="pricingItem-info">
+                        <li>- 1GB of Space</li>
+                        <li>- Support ar $25/hour</li>
+                        <li>- Small social media</li>
+                    </ul>
+
+                    <button>Choose your plan</button>
+                </div>
+
+                <!-- Single Price Item -->
+                <div class="pricing-item" data-aos="zoom-in">
+                    <h3>Business Plan</h3>
+                    <p>Perfect for small than 10 team</p>
+
+                    <div class="pricingItem-price">
+                        <span class="dollar">$</span>
+                        <span class="price">195</span>
+                        <span class="period">/ month</span>
+                    </div>
+                    <ul class="pricingItem-info">
+                        <li>- 1GB of Space</li>
+                        <li>- Support ar $25/hour</li>
+                        <li>- Small social media</li>
+                    </ul>
+
+                    <button>Choose your plan</button>
+                </div>
+
+                <!-- Single Price Item -->
+                <div class="pricing-item" data-aos="zoom-in">
+                    <h3>Premium Plan</h3>
+                    <p>Perfect for small than 10 team</p>
+
+                    <div class="pricingItem-price">
+                        <span class="dollar">$</span>
+                        <span class="price">245</span>
+                        <span class="period">/ month</span>
+                    </div>
+                    <ul class="pricingItem-info">
+                        <li>- 1GB of Space</li>
+                        <li>- Support ar $25/hour</li>
+                        <li>- Small social media</li>
+                    </ul>
+
+                    <button>Choose your plan</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing end -->
+
+
+     <!-- Blog -->
+     <section id="blog">
+        <div class="blog-heading">
+            <!-- <span>Our Recent Posts</span> -->
+            <!-- <h3>Our Blog</h3> -->
+            <div class="title">Our Blog</div>
+        </div>
+
+        <div class="blog-container">
+            <div class="blog-box" data-aos="zoom-in">
+
+                <div class="blog-img">
+                    <img src="./images/b1.jpg" alt="">
+                </div>
+
+                <div class="blog-text">
+                    <span>8 july 2022 / Web Developer</span>
+                    <a href="#" class="blog-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Exercitationem, facilis!</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nam, minus neque ducimus earum
+                        odio? Perferendis recusandae quidem non necessitatibus.</p>
+                    <a href="">Read More</a>
+                </div>
+            </div>
+            <div class="blog-box" data-aos="zoom-in">
+
+                <div class="blog-img">
+                    <img src="./images/b2.jpg" alt="">
+                </div>
+
+                <div class="blog-text">
+                    <span>8 july 2022 / Web Developer</span>
+                    <a href="#" class="blog-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Exercitationem, facilis!</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nam, minus neque ducimus earum
+                        odio? Perferendis recusandae quidem non necessitatibus.</p>
+                    <a href="">Read More</a>
+                </div>
+            </div>
+            <div class="blog-box" data-aos="zoom-in">
+
+                <div class="blog-img">
+                    <img src="./images/b3.jpg" alt="">
+                </div>
+
+                <div class="blog-text">
+                    <span>8 july 2022 / Web Developer</span>
+                    <a href="#" class="blog-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Exercitationem, facilis!</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nam, minus neque ducimus earum
+                        odio? Perferendis recusandae quidem non necessitatibus.</p>
+                    <a href="">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Blog Section -->
+
+    <!-- Contact Us -->
+    <section class="contact" id="contact">
+        <div class="content">
+            <!-- <h1>Contact Us</h1> -->
+            <div class="title">Contact Us</div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint repudiandae natus sapiente dolor est
+                error
+                officiis enim voluptates ratione placeat.</p>
+        </div>
+        <div class="container">
+            <div class="contactInfo" data-aos="zoom-in">
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, possimus.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>(+91) XXXXX-12345</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>enquiry@zipppy.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm" data-aos="zoom-in">
+                <form>
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required"></textarea>
+                        <span>Type your Message</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="" value="send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-google"></i></a>
+        </div>
+        <ul class="list">
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#projects">Project</a>
+            </li>
+            <li>
+                <a href="#price">Price</a>
+            </li>
+            <li>
+                <a href="#team">Team</a>
+            </li>
+            <li>
+                <a href="#blog">Blog</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <p class="copyright">Copyright &copy; 2022 Designed by Saurav</p>
+    </section>
+</body>
+<script src="script.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
