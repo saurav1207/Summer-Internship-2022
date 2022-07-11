@@ -20,7 +20,7 @@
 When a variable is declared inside a function, it has a function scope. This indicates that it is accessible and limited to that function.
 
 Example:- 
-```
+```js
 var greeter = "hey hi";
 function newFunction() {
      var hello = "hello";
@@ -30,7 +30,7 @@ console.log(hello); // error: hello is not defined
 `const` is block-scoped (meaning the variable you declare is available only within the block), much like variables declared using the let keyword. `const` can’t be re-declared or updated. The difference between `const` and `var` is that its value can’t be reassigned.
 
 Example:-
-```
+```js
 const  a  =  1
 console.log(a);
 a  =  3;   //<--- This line throws an error.  
@@ -53,11 +53,11 @@ An unordered collection of related data, of primitive or reference types, in the
 - Objects in Javascript refer to variables that can have multiple properties and methods, whereas an array is a collection of items that can be either primitive or object like.
 
 Example:- Array
-```
+```js
 var fruits = ["Apple", "Mango", "Banana"];
 ```
 Example:- Object
-```
+```js
 const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
 ```
 
@@ -72,7 +72,7 @@ Functions are a set of of organised instructions that correspond to a certain ta
 When a variable is passed as a parameter to a function, if any changes are made to the parameter, the original variable will remain unaffected. This is known as call by value and this is true for all values having a primitive data type.
 
 Example :-
-```
+```js
 let origin = 10;
 function updateOriginal(originalVal){
     originalVal +=10;
@@ -87,7 +87,7 @@ console.log(original);
 When a variable’s reference(address) and not its value is passed to a function’s parameter, any changes made to the parameter will update the original variable reference. This is known as call by reference and this is true for all values having a non-primitive data type.
 
 Example :-
-```
+```js
 let myObj = {
     value:10
 }
@@ -123,7 +123,7 @@ DOM stands for Document Object Model. It is a programming interface that allows 
 
 ### Average of array nums in Javascript?
 
-```
+```js
 const array=[2, 3, 9, 0];
 
 var sum = 0;
@@ -135,7 +135,7 @@ average = sum / arr.length;
 console.log(average);
 ```
 ### Swap two numbers by reference?
-```
+```js
 let a=1;
 let b=2;
 let temp;
@@ -150,7 +150,7 @@ console.log("After Swapping b is ",b);
 ```
 
 ### Print the fibonacci sequence?
-```
+```js
 function fibo(num) {
     var x = 0;
     var y = 1;
@@ -172,7 +172,7 @@ function fibo(num) {
   ```
 
   ### Sort an array by both ascending and descending order?
-  ```
+  ```js
     const arr = new Array("apple","ball", "cow","donkey");
 
     arr.sort();
@@ -182,7 +182,7 @@ function fibo(num) {
   ```
 
   ### Show a variable value in an HTML webpage using DOM?
-  ```
+  ```js
     let name = "Saurav";
     document.write(name); 
   ```
