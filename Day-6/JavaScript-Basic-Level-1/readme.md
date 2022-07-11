@@ -28,6 +28,7 @@ function newFunction() {
 console.log(hello); // error: hello is not defined
 ```
 `const` is block-scoped (meaning the variable you declare is available only within the block), much like variables declared using the let keyword. `const` can’t be re-declared or updated. The difference between `const` and `var` is that its value can’t be reassigned.
+
 Example:-
 ```
 const  a  =  1
@@ -65,7 +66,6 @@ const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
 Functions are a set of of organised instructions that correspond to a certain task or specific functionality a user wants to implement in their program to achieve a single desired outcome.
 
 ## How can we implement call by value and call by reference in Javascript?
---------
 
 ### Call by Value :-
 
