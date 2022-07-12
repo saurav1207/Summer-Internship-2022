@@ -1,4 +1,4 @@
-<h1 align="center"><b>Javascript quiz (Basic Level 4)</b></h1>
+<h1 align="center"><b>Javascript Quiz (Basic Level 4) </b></h1>
 
 
 ## What are anonymous functions in JavaScript?
