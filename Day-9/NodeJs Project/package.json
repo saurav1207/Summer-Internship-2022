@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "concurrently \"npx tsc -w\" \"npx nodemon build\\app.js \"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Saurav",
