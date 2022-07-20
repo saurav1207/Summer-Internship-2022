@@ -1,9 +1,5 @@
 import React, { useState, useEffect } from "react";
 
-
-
-
-
 const App = () => {
   const [img, setImg] = useState("");
   const [res, setRes] = useState([]);
@@ -40,10 +36,7 @@ const App = () => {
             <button
               type="submit"
               onClick={Submit}
-              className="btn bg-dark text-white fs-3 mx-3"
-            >
-              Search
-            </button>
+              className="btn bg-dark text-white fs-3 mx-3"> Search </button>
           </div>
           
           <div className="col-12 d-flex justify-content-evenly flex-wrap">
